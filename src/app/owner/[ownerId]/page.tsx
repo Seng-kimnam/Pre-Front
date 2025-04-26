@@ -2,7 +2,7 @@ import React from "react";
 import OwnerDetailComponent from "../_components/OwnerDetailComponent";
 
 interface OwnerParams {
-  params: number;
+  params: any;
 }
 const ownerId: React.FC<OwnerParams> = ({ params }) => {
   return (
